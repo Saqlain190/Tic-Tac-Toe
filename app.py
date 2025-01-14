@@ -2,7 +2,7 @@ import tkinter as tk
 
 # Create the main window
 root = tk.Tk()
-root.title("3x3 Grid Example")
+root.title("TIC TAC TOE GAME")
 
 # Set the size of the window
 root.geometry("400x400")  # Width x Height in pixels
@@ -58,6 +58,26 @@ label3.bind("<Button-1>", on_label_click3)
 def on_label_click4(event):
     label4.config(text="X")    
 label4.bind("<Button-1>", on_label_click4)
+
+def on_label_click4(event):
+    label5.config(text="X")    
+label5.bind("<Button-1>", on_label_click4)
+
+def on_label_click4(event):
+    label6.config(text="X")    
+label6.bind("<Button-1>", on_label_click4)
+
+def on_label_click4(event):
+    label7.config(text="X")    
+label7.bind("<Button-1>", on_label_click4)
+
+def on_label_click4(event):
+    label8.config(text="X")    
+label8.bind("<Button-1>", on_label_click4)
+
+def on_label_click4(event):
+    label9.config(text="X")    
+label9.bind("<Button-1>", on_label_click4)
 
 
 
